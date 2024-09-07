@@ -1,4 +1,4 @@
-# back-up-service
+# back-up-service - Backing up files in an interval basis, using CRON
 
 
 WEEK-1:
@@ -25,4 +25,3 @@ check if running:
 kubectl get jobs
 kubectl delete cronjob backup-cronjob
 
-* * * * * /Users/suyog_k/Desktop/CC/back-up-service/log_jobs.sh
